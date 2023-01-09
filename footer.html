@@ -1,0 +1,133 @@
+<div class="cta bg-blue-light">
+    <div class="container">
+        <div class="row cta-1">
+        </div>
+    </div>
+</div>
+<div class="footer-4cln space-md">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-2 col-xs-6">
+                        <h6>Zahnarztpraxis Wedding</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="wirueberuns.php">Wir über uns</a>
+                            </li>
+                            <li><a href="impressum.php">Impressum</a>
+                            </li>
+                            <li><a href="datenschutz.php">Datenschutz</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-xs-6">
+                        <h6>Prophylaxe & Parodontologie</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="prophylaxe.php">Professionelle Zahnreinigung</a>
+                            </li>
+                            <li><a href="karies.php">Karies Frühdiagnostik</a>
+                            </li>
+                            <li><a href="fissurenversiegelung.php">Fissurenversiegelung</a>
+                            </li>
+                            <li><a href="paradontaltherapie.php">Paradontal Therapie</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <h6>Zahn- behandlung</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="zahnfuellungen.php">Zahnfüllungen</a>
+                            </li>
+                            <li><a href="wurzelkanalbehandlung.php">Wurzelkanalbehandlung</a>
+                            </li>
+                            <li><a href="zahnersatz.php">Zahnersatz</a>
+                            </li>
+                            <li><a href="kronenundbruecken.php">Kronen und Brücken</a>
+                            </li>
+                            <li><a href="inlays.php">Inlays</a>
+                            </li>
+                            <li><a href="mehrzahnluecken.php">Zahnlücken</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <h6>Zahnästhetik</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="bleaching.php">Bleaching</a>
+                            </li>
+                            <li><a href="verfaerbungen.php">Verfärbungen</a>
+                            </li>
+                            <li><a href="kieferorthopaedie.php">Kieferorthopädie</a>
+                            </li>
+                            <li><a href="zahnfuellungen.php">Zahnfüllungen</a>
+                            </li>
+                            <li><a href="amalgamsanierung.php">Amalgam-Sanierung</a>
+                            </li>
+                            <li><a href="veneers.php">Veneers</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-xs-6">
+                        <h6>Funktions- therapie</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="schienentherapie.php">Schienentherapie</a>
+                            </li>
+                            <li><a href="schnarchschienen.php">Schnarchschienen</a>
+                            </li>
+                            <li><a href="sportmundshutz.php">Sportmundschutz</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="ourTeam-social">
+                    <ul class="social">
+                        <li><a href="https://www.facebook.com/zahnarztpraxiswedding/" class="social-btn social-facebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#" class="social-btn social-google" title="Google+"><i class="fa fa-google-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-4cln-bar">
+            <span class="phone"><i class="fa fa-phone"></i><a href="tel:03045023110">030 - 45 023 110</a></span>
+            <span class="email"><i class="fa fa-envelope"></i> <a href="mailto:info@zahnarztpraxis-wedding.de">info@zahnarztpraxis-wedding.de</a></span>
+            <span class="address">&copy;2022<br/> Zahnarztpraxis Wedding</span>
+        </div>
+    </div>
+</div>
+<script src="https://www.google.com/recaptcha/api.js?hl=de" async defer></script>
+<script>
+
+function InvalidMsg(textbox) {
+
+    if (textbox.value == '') {
+        textbox.setCustomValidity('Bitte füllen Sie dieses Feld aus.');
+    }
+    else if(textbox.validity.typeMismatch){
+        textbox.setCustomValidity('Bitte füllen Sie dieses Feld aus.');
+    }
+    else {
+        textbox.setCustomValidity('');
+    }
+    return true;
+}
+
+
+function Verify(textbox) {
+
+    var ver = document.getElementById('verify');
+
+    if (ver.value !== '4' ) {
+        textbox.setCustomValidity('Bitte füllen Sie dieses Feld aus.');
+    }
+    else {
+        textbox.setCustomValidity('');
+    }
+    return true;
+}
+
+</script>
